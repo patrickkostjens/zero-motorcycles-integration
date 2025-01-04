@@ -11,7 +11,7 @@ cellular connection and cloud service.
 All you need for this integration to work is your login. That is the username
 and password you use for the official Zero Motorcycles app.
 
-Currently not available in default HACS repo because that requires me to make a brand first. 
+Currently not available in default HACS repo because that requires me to make a brand first.
 
 For now you either have to install it manually by dropping the custom_components
 folder contents into your HA installation. Or by adding this repo as a custom
@@ -56,6 +56,11 @@ file and change it to what you prefer.
 
 ## Version History
 
+# 0.5.0
+
+* compatibility fixes for HA 2025.1.0
+* add proper unites to various entities
+
 # 0.4.0
 
 * created device_tracker for location
@@ -78,19 +83,7 @@ file and change it to what you prefer.
 
 initial release
 
-## About
-
-Here is a picture of my 14.4 kWh Zero SRF premium with charge tank for 12 kW
-maximum charging power (if conditions are met).
-
-![motorcycle picture](https://i.ibb.co/zmYvXtP/DSCF0397.jpg)
-
-## Notice
-
-I have since sold this motorcycle (went to France!) and now mostly ride a 2021
-Energice SS9+ with 21.5 kWh battery and 24 kW charge speed.
-
 ## Resources
 
-A good code example for sensors and device_trackers is the Porsche Connect integration 
-with sources available at https://github.com/CJNE/ha-porscheconnect 
+A good code example for sensors and device_trackers is the Porsche Connect integration
+with sources available at https://github.com/CJNE/ha-porscheconnect
