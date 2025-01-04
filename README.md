@@ -56,6 +56,10 @@ file and change it to what you prefer.
 
 ## Version History
 
+# 0.5.1
+
+* fix broken release
+
 # 0.5.0
 
 * compatibility fixes for HA 2025.1.0
