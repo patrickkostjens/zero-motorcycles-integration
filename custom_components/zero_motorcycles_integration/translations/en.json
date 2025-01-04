@@ -2,7 +2,7 @@
     "config": {
         "step": {
             "user": {
-                "description": "If you need help with the configuration have a look here: https://github.com/hanscappelle/zero-motorcycles-integration",
+                "description": "If you need help with the configuration have a look here: https://github.com/patrickkostjens/zero-motorcycles-integration",
                 "data": {
                     "username": "Username",
                     "password": "Password"

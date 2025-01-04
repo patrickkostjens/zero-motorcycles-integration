@@ -1,7 +1,7 @@
 """Custom integration to integrate zero_motorcycles_integration with Home Assistant.
 
 For more details about this integration, please refer to
-https://github.com/hanscappelle/zero-motorcycles-integration
+https://github.com/patrickkostjens/zero-motorcycles-integration
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     username = entry.data.get(CONF_USERNAME)
     LOGGER.debug("Loaded %s: %s", CONF_USERNAME, username)
     password = entry.data.get(CONF_PASSWORD)
-    LOGGER.debug("Loadded %s: ********", CONF_PASSWORD)
+    LOGGER.debug("Loaded %s: ********", CONF_PASSWORD)
 
     # Initialize the HASS structure
     hass.data.setdefault(DOMAIN, {})
